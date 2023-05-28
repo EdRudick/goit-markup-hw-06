@@ -915,7 +915,7 @@ body {
 }
 
 .contact-form-checkbox:focus+.own-checkbox {
-    background-color: var(--accent-color);
+    background-color: #404bbf;
     border: none;
     fill: var(--primary-white-color);
     border-color: #404bbf;
