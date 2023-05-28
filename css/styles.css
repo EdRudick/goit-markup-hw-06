@@ -930,9 +930,13 @@ body {
     height: 56px;
     left: 635px;
     top: 584px;
-    color: var(--btns-color);
+    color: var(--primary-white-color);
     background: var(--btn-color);
     outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
