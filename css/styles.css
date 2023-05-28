@@ -818,7 +818,7 @@ body {
 
 .contact-form-input:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: var(--btn-color);
 }
 
 .contact-form-field {
@@ -856,7 +856,7 @@ body {
 }
 
 .contact-form-input:focus+.contact-form-icon {
-    fill: var(--accent-color);
+    fill: var(--btn-color);
 }
 
 .contact-form-message {
