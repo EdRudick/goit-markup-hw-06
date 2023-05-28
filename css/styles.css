@@ -810,7 +810,9 @@ body {
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
+    background-color: transparent;
     padding-left: 38px;
+    outline: transparent;
     transition: border-color var(--transition-duration-and-func)
 }
 
