@@ -669,19 +669,28 @@ body {
     margin-bottom: 16px;
 }
 
+.footer-form-subscribe {
+    display: flex;
+}
+
+.footer-form-subscribe {
+    margin-right: 24px;
+}
+
 .footer-input-wrapper {
     position: relative;
     display: block;
 }
 
 .footer-input {
-    min-width: 264px;
+    width: 264px;
     height: 40px;
+    letter-spacing: 0.04em;
     padding-left: 16px;
     color: var(--btns-color);
     font-weight: 400;
     font-size: 12px;
-    line-height: 24px;
+    line-height: 1.5;
     background-color: var(--secondary-background-color);
     border: 1px solid var(--btns-color);
     border-radius: 4px;
