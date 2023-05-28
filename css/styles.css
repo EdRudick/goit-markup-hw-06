@@ -910,17 +910,8 @@ body {
     opacity: 0;
 }
 
-.contact-form-checkbox:checked+.own-checkbox contact-form-own-checkbox>.contact-form-checkmark {
-
+.contact-form-checkbox:checked+.own-checkbox .contact-form-own-checkbox>.contact-form-checkmark {
     opacity: 1;
-    background-color: var(--accent-color);
-    border: none;
-    fill: var(--primary-white-color);
-    border-color: var(--accent-color);
-}
-
-.contact-form-checkbox:focus>.own-checkbox,
-.contact-form-own-checkbox {
     background-color: var(--accent-color);
     border: none;
     fill: var(--primary-white-color);
