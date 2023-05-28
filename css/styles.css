@@ -898,13 +898,13 @@ body {
     position: absolute;
 }
 
-.contact-form-own-checkbox {
-    padding: 3px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 8px;
+.contact-form-checkbox-text {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--customs-icon-color);
 }
+
 
 .contact-form-checkmark {
     opacity: 0;
@@ -923,6 +923,26 @@ body {
     color: var(--accent-color);
     text-decoration: underline;
 }
+
+.own-checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.contact-form-own-checkbox {
+    padding: 3px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
 
 .contact-form-submit {
     display: block;
