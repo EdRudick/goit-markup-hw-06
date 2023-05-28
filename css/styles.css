@@ -871,17 +871,19 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.2);
     border-radius: 4px;
+    background-color: transparent;
+    outline: transparent;
     transition: border-color var(--transition-duration-and-func)
 }
 
 .contact-form-message:focus {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: #4D5AE5;
 }
 
 .contact-form-checkbox-wrapper {
