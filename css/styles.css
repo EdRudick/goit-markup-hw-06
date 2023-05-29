@@ -620,7 +620,7 @@ body {
 }
 
 .media-container {
-    margin-right: 24px;
+    margin-right: 80px;
 }
 
 .media-list {
@@ -953,10 +953,6 @@ body {
     cursor: pointer;
     padding: 3px;
     fill: transparent;
-}
-
-.contact-form-own-checkbox {
-    margin-right: 8px;
 }
 
 .contact-form-submit {
