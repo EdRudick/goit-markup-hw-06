@@ -619,6 +619,10 @@ body {
     letter-spacing: 0.02em;
 }
 
+.media-container {
+    margin-right: 24px;
+}
+
 .media-list {
     font-size: 16px;
     font-weight: 500;
@@ -658,10 +662,9 @@ body {
     display: flex;
     flex-direction: row;
     margin-left: 80px;
-
 }
 
-.footer-subscribe-wrapper {
+.footer-form-subscribe-wrapper {
     margin-right: 24px;
 }
 
@@ -678,7 +681,7 @@ body {
     display: flex;
 }
 
-.footer-form-subscribe {
+.footer-subscribe-wrapper {
     margin-right: 24px;
 }
 
@@ -720,7 +723,7 @@ body {
 .subscribe-btn {
     min-width: 165px;
     height: 40px;
-    color: var(--btns-color);
+    color: #ffffff;
     background: var(--btn-color);
     outline: none;
     font-family: "Roboto", sans-serif;
@@ -926,13 +929,7 @@ body {
     color: var(--customs-icon-color);
 }
 
-
-.contact-form-checkmark {
-    opacity: 0;
-}
-
-.contact-form-checkbox:checked+.contact-form-checkbox-text+.own-checkbox .contact-form-own-checkbox>.contact-form-checkmark {
-    opacity: 1;
+.contact-form-checkbox:checked+.contact-form-checkbox-text>.own-checkbox {
     background-color: var(--accent-color);
     border: none;
     fill: var(--primary-white-color);
