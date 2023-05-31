@@ -703,6 +703,10 @@ body {
     transition: border-color var(--transition-duration-and-func)
 }
 
+.footer-input::placeholder {
+    color: var(--primary-white-color);
+}
+
 .footer-input:focus {
     outline: none;
 }
@@ -725,7 +729,6 @@ body {
     line-height: 1.5;
     display: flex;
     justify-content: center;
-    padding-left: 24px;
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
